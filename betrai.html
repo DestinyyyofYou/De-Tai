@@ -1,72 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="betrai.css">
-    <link rel="stylesheet"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="betrai.css">
+        <link rel="stylesheet"
             href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
         <script src="./bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-            <div class="container-fluid">
-                <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle"
-                            data-bs-toggle="dropdown" href="#">Bé trai</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item"
-                                href="#">Toàn bộ</a></li>
-                            <li><a class="dropdown-item"
-                                    href="#">Áo</a></li>
-                            <li><a class="dropdown-item"
-                                    href="#">Quần</a></li>
-                            <li><a class="dropdown-item" href="#">Đầm
-                                    Váy</a></li>
-                            <li><a class="dropdown-item" href="#">Phụ
-                                    kiện</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link  dropdown-toggle"
-                            data-bs-toggle="dropdown" href="#">Bé gái</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item"
-                                    href="begai.html">Toàn bộ</a></li>
-                            <li><a class="dropdown-item"
-                                    href="#">Áo</a></li>
-                            <li><a class="dropdown-item"
-                                    href="#">Quần</a></li>
-                            <li><a class="dropdown-item" href="#">Đầm
-                                    Váy</a></li>
-                            <li><a class="dropdown-item" href="#">Phụ
-                                    kiện</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Giày</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Dép</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="text"
-                        placeholder="Search">
-                    <button class="btn btn-primary"
-                        type="button">Search</button>
-                </form>
-            </div>
-        </nav>
-        <footer>
-            <h3>
-                Địa chỉ : 42 Xô Viết Nghệ Tĩnh, Phường 19, Bình Thạnh, Thành phố Hồ Chí Minh, Việt Nam
-            </h3>
-        </footer>
-    </div>
-    
-</body>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+                <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle"
+                                data-bs-toggle="dropdown" href="#">Bé trai</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="#">Toàn bộ</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Áo</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Quần</a></li>
+                                <li><a class="dropdown-item" href="#">Đầm
+                                        Váy</a></li>
+                                <li><a class="dropdown-item" href="#">Phụ
+                                        kiện</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle"
+                                data-bs-toggle="dropdown" href="#">Bé gái</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="begai.html">Toàn bộ</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Áo</a></li>
+                                <li><a class="dropdown-item"
+                                        href="#">Quần</a></li>
+                                <li><a class="dropdown-item" href="#">Đầm
+                                        Váy</a></li>
+                                <li><a class="dropdown-item" href="#">Phụ
+                                        kiện</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">Giày</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#">Dép</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text"
+                            placeholder="Search">
+                        <button class="btn btn-primary"
+                            type="button">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <header>
+                <a href><img class="poster" src="./imgs/poster2.webp"
+                        alt></a>
+            </header>
+            <section>
+                <div class="left col-3">
+                    <h2>Thời trang bé gái</h2>
+                    <div class="borderOption">
+                        <h4>Mức giá</h4>
+                        <input type="checkbox" id="option1">
+                        <label for="option1">Giá dưới 100,000<u>đ</u></label>
+                        <br>
+                        <input type="checkbox" id="option2">
+                        <label for="option2">100,000<u>đ</u> -
+                            200,000<u>đ</u></label> <br>
+                        <input type="checkbox" id="option3">
+                        <label for="option3">200,000<u>đ</u> -
+                            300,000<u>đ</u></label> <br>
+                        <input type="checkbox" id="option4">
+                        <label for="option4">300,000<u>đ</u> -
+                            500,000<u>đ</u></label> <br>
+                        <input type="checkbox" id="option5">
+                        <label for="option5">Giá trên 500,000<u>đ</u></label>
+                        <hr>
+                    </div>
+                    <div class="borderOption">
+                        <h4>Loại</h4>
+                        <input type="checkbox" id="option6">
+                        <label for="option6">Đồ bộ siêu anh hùng</label> <br>
+                        <input type="checkbox" id="option7">
+                        <label for="option7">Áo thun/ áo khoác</label> <br>
+                        <input type="checkbox" id="option8">
+                        <label for="option8"></label>Quần dài/ quần lửng<br>
+                        <input type="checkbox" id="option9">
+                        <label for="option9">Đồ bộ bé trai</label> <br>
+                        <hr>
+                    </div>
+                    <div class="borderOption">
+                        <h4>Kích thước</h4>
+                        <h5 style="color:orange">Chọn 3 khung kích thước gần số
+                            ký của bé</h5>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">1Y-9-11kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">2Y-11-12kg</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">3Y-12-13kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">4Y-14-16kg</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">5Y-17-19kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">6Y-19-21kg</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">7Y-21-23kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">8Y-23-25kg</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">9Y-25-27kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">10Y-27-30kg</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">11Y-30-32kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">12Y-32-34kg</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <input type="checkbox" id="option6" class>
+                                <label for="option10">13Y-33-35kg</label>
+                            </div>
+                            <div class="col">
+                                <input type="checkbox" id="option7">
+                                <label for="option11">14Y-35-37kg</label>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="right col-9">
+                    <div class="range">
+                        <p class="rangeText">
+                            Sắp xếp:
+                        </p>
+                        <select class="form-select"
+                            aria-label="Default select example">
+                            <option selected value="alpha-asc">Tên A -
+                                Z</option>
+                            <option value="alpha-desc">Tên Z - A</option>
+                            <option value="price-asc">Giá tăng</option>
+                            <option value="price-dsc">Giá giảm</option>
+                        </select>
+                    </div>
+                    <div class="listProducts_medium">
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                    </div>
+                    <div class="listProducts_medium">
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                    </div>
+                    <div class="listProducts_medium">
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                        <div class="borderProducts_medium col-3">
+                            <div class="products_medium">
+                                <img class="img-fluid" src="./imgs/begai1.webp"
+                                    alt>
+                            </div>
+                            <p class="content_medium">
+                                Đầm váy công chúa ngắn tay bé gái Rabity 93809
+                            </p>
+                            <p class="price_medium">499,000 <u>đ</u></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <h3>
+                    Địa chỉ : 42 Xô Viết Nghệ Tĩnh, Phường 19, Bình Thạnh, Thành
+                    phố Hồ Chí Minh, Việt Nam
+                </h3>
+            </footer>
+        </div>
+
+    </body>
 </html>

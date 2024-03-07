@@ -43,6 +43,7 @@ section {
     display: block;
 }
 .poster{
+    transition: ease 1s;
     position: relative;
     margin:10px 6.5% ;
     align-items: center !important;
@@ -138,4 +139,14 @@ footer{
     align-items: center !important;
     text-align: center;
     justify-content: center !important;
+}
+
+.img-fluid{
+    transition: ease 1s;
+}
+.img-fluid:hover{
+    scale: 0.95;
+}
+.poster:hover {
+    scale: 1.1;
 }
