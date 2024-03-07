@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container-fluid {
@@ -42,14 +42,16 @@ section {
     height: 4500px;
     display: block;
 }
-.poster{
+
+.poster {
     transition: ease 1s;
     position: relative;
-    margin:10px 6.5% ;
+    margin: 10px 6.5%;
     align-items: center !important;
     text-align: center;
     justify-content: center !important;
 }
+
 .bts {
     position: relative;
     display: block;
@@ -74,7 +76,7 @@ section {
 
 .click1 {
     font-size: 18px;
-    border:none;
+    border: none;
     background-color: white;
     margin: 10px;
     /* border-bottom: 1px solid black; */
@@ -82,21 +84,23 @@ section {
 
 .click2 {
     font-size: 18px;
-    border:none;
+    border: none;
     background-color: white;
     margin: 10px;
 }
 
 .click3 {
     font-size: 18px;
-    border:none;
+    border: none;
     background-color: white;
     margin: 10px;
 }
-.listProducts{
+
+.listProducts {
     position: relative;
     display: flex;
 }
+
 .borderProducts {
     position: relative;
     margin: 40px 75px 40px 75px;
@@ -122,7 +126,7 @@ img {
     color: red;
 }
 
-.btnmore{
+.btnmore {
     position: relative;
     width: 300px;
     height: 50px;
@@ -132,21 +136,134 @@ img {
     margin-bottom: 30px;
 }
 
-footer{
-    background-color: gray;
+footer {
+    background: linear-gradient(-45deg, #23d5ab, #e73c7e, #23a6d5, #ee7752);
+    background-size: 400% 400%;
+    animation: gradient 20s ease infinite;
+    color: white;
     width: 100%;
     padding: 20px;
     align-items: center !important;
     text-align: center;
     justify-content: center !important;
+    display: block;
 }
 
-.img-fluid{
+.item {
+    position: relative;
+    display: flex;
+}
+
+.footer_aboutUs {
+    position: relative;
+    padding: 50px;
+}
+
+.borderAboutUs {
+    position: relative;
+    color: #66e8f1;
+    width: 200px;
+    height: 130px;
+    left: 50%;
+}
+
+.about_us {
+    position: relative;
+    border-bottom: 1px solid rgb(230, 210, 30);
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 31%;
+    box-shadow: rgb(89, 243, 69) 0px 1px;
+}
+
+.social-icon {
+    position: relative;
+    margin-top: 20px;
+    left: -14%;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.social-icon li a:hover {
+    background: rgb(255, 255, 255);
+}
+
+.social-icon li a {
+    font-size: 23px;
+}
+
+.borderContact {
+    position: relative;
+    color: #66e8f1;
+    top: 20%;
+    left: 20%;
+    width: 200px;
+    height: 120px;
+}
+
+h3, h5 {
+    color: black;
+}
+
+.contact {
+    position: relative;
+    border-bottom: 1px solid rgb(230, 210, 30);
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-weight: 800;
+    border-radius: 31%;
+    box-shadow: rgb(89, 243, 69) 0px 1px;
+}
+
+.footer_contact {
+    position: relative;
+
+}
+
+.homepage {
+    color: black !important;
+    text-decoration: none;
+}
+
+.img-fluid {
     transition: ease 1s;
 }
-.img-fluid:hover{
+
+.img-fluid:hover {
     scale: 0.95;
 }
+
 .poster:hover {
     scale: 1.1;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
