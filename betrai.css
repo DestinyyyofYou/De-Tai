@@ -16,17 +16,25 @@
     justify-content: center;
 }
 
-a {
-    color: white !important;
+li a{
+    position: relative;
+    left: 20px;
+    margin-left: 20px;
+    color: black !important;
     font-size: 20px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: 0.5 ease;
+    width: 150px;
 }
 
 li a:hover {
-    font-weight: 900;
+    font-weight: 1000;
     color: aqua !important;
-    background-color: gray;
+    background-color: black;
+    border-color: white;
 }
-
 .carousel-control-prev {
     background-color: gray;
 }
@@ -240,12 +248,37 @@ h3, h5 {
     transition: ease 1s;
 }
 
+
+.d-flex{
+    position: relative;
+    left: 180px;
+}
+
+.btnlogin,.btnmore{
+    position: relative;
+    right: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    transition: 1s ease;
+    border-radius: 20px;
+}
+
+.btnlogin:hover,.btnmore:hover{
+    font-size: 25px;
+    font-weight: 1000;
+    color: aqua;
+    background-color:black;
+    border-color: white;
+}
+
 .img-fluid:hover {
     scale: 0.95;
 }
 
 .poster:hover {
-    scale: 1.1;
+    scale: 1.05;
+    border-radius: 15%;
 }
 
 @keyframes gradient {
